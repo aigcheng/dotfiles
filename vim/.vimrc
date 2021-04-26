@@ -72,6 +72,7 @@ Plugin 'vim-airline/vim-airline-themes'
 
 Plugin 'leafgarland/typescript-vim'
 Plugin 'tpope/vim-markdown'
+Plugin 'chemzqm/wxapp.vim'
 
 Plugin 'posva/vim-vue'      "vue highlighter
 Plugin 'ap/vim-css-color'   "preview css color

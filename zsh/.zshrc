@@ -10,7 +10,7 @@ export ZSH=$HOME/.oh-my-zsh
 # ZSH_THEME="agnoster"
 
 # a fork of <https://github.com/sindresorhus/pure>
-ZSH_THEME="refined-lambda"
+ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -53,7 +53,7 @@ ZSH_THEME="refined-lambda"
 plugins=(
   git
   zsh-syntax-highlighting
-  # zsh-autosuggestions
+  zsh-autosuggestions
   zsh-completions
 )
 
