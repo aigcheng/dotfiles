@@ -65,6 +65,11 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'kien/ctrlp.vim'
 Plugin 'raimondi/delimitmate'  " automatic closing of quotes, parenthesis, brackets
 Plugin 'tpope/vim-commentary'  " comment stuff out
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
+" post install (yarn install | npm install) then load plugin only for editing supported files
+Plugin 'prettier/vim-prettier', {'do': 'yarn install'}
+
 
 " Airline
 Plugin 'vim-airline/vim-airline'
@@ -259,6 +264,17 @@ let g:nerdtree_tabs_focus_on_files=1
 let g:NERDTreeMapOpenInTabSilent = '<RightMouse>'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.db,*.sqlite
 nnoremap <silent> <F2> :NERDTreeFind<CR>
+
+"UltiSnips
+let g:UltiSnipsExpandTrigger="<tab>"
+" list all snippets for current filetype
+let g:UltiSnipsListSnippets="<c-l>"
+
+" Prettier Settings
+let g:prettier#quickfix_enabled = 0
+let g:prettier#autoformat_require_pragma = 0
+autocmd TextChanged,InsertLeave *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.svelte,*.yaml,*.html PrettierAsync
+
 
 " ctrlp ignore
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
