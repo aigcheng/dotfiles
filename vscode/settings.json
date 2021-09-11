@@ -33,7 +33,6 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 15,
   "editor.insertSpaces": true,
-  "editor.minimap.enabled": false,
   "editor.mouseWheelZoom": true,
   "editor.renderIndentGuides": true,
   "editor.rulers": [
@@ -118,7 +117,6 @@
     },
   ],
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.colorTheme": "One Dark Pro",
-  "workbench.iconTheme": "material-icon-theme",
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "workbench.colorTheme": "Bluloco Dark"
 }

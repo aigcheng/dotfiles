@@ -116,17 +116,24 @@ fi
 EDITOR=vim
 GIT_EDITOR=vim
 
-# emacs (open in new instance)
-alias emacs='open -n -a Emacs.app .'
-alias emacsterm='\emacs-26.2'
-alias oldemacs='\emacs'
+# git
+alias co='git checkout'
+alias ci='git add --all && git commit -m'
+alias st='git status'
+alias push='git push origin'
+alias pull='git pull origin'
 
-# rlwrap
-alias sml='rlwrap sml'
-alias jake='rlwrap jake'
-alias uscheme='rlwrap uscheme'
-alias scheme='rlwrap scheme'
-alias racket='rlwrap racket'
+# vs code
+alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
+
+# package.json scripts
+alias lint='npm run lint'
+alias dev='npm run dev'
+alias debug='npm run debug'
+alias changelog='conventional-changelog -i CHANGELOG.md -s -r 0'
+
+# 常用工作目录
+alias ws='cd ~/work/workspace/'
 
 # grep (recursive, linenum)
 alias greprn='grep -rn'
