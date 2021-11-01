@@ -118,5 +118,6 @@
   ],
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "files.autoSave": "afterDelay",
-  "workbench.colorTheme": "Bluloco Dark"
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "vscode-icons"
 }

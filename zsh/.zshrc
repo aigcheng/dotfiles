@@ -11,6 +11,11 @@ export ZSH=$HOME/.oh-my-zsh
 
 # a fork of <https://github.com/sindresorhus/pure>
 ZSH_THEME="agnoster"
+export NVM_HOME=/Users/derek/.nvm
+
+export PATH=${PATH}:${NVM_HOME}
+
+source ${NVM_HOME}/nvm.sh
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
