@@ -9,7 +9,7 @@ ln -sf "$cwd/bash/.bashrc" ~/.bashrc
 ln -sf "$cwd/zsh/.zshrc" ~/.zshrc
 ln -sf "$cwd/zsh/.zshenv" ~/.zshenv
 ln -sf "$cwd/zsh/.zprofile" ~/.zprofile
-ln -sf "$cwd/zsh/oh-my-zsh/themes/refined-lambda.zsh-theme" ~/.oh-my-zsh/themes/refined-lambda.zsh-theme
+ln -sf "$cwd/zsh/oh-my-zsh/themes/agnoster.zsh-theme" ~/.oh-my-zsh/themes/agnoster.zsh-theme
 
 # vim
 ln -sf "$cwd/vim/.vimrc" ~/.vimrc

@@ -123,7 +123,7 @@ GIT_EDITOR=vim
 
 # git
 alias co='git checkout'
-alias ci='git add --all && git commit -m'
+alias cz='git commit -m'
 alias st='git status'
 alias push='git push origin'
 alias pull='git pull origin'
