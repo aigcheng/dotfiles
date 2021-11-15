@@ -55,6 +55,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 " code complete plugin
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'github/copilot.vim'
 
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'

@@ -255,3 +255,6 @@ compdef _gnu_generic bsc bsb ocamlc yarn
 #   zstyle ':completion:*' completer _oldlist _complete
 # fi
 # zstyle ':auto-fu:var' postdisplay $''
+
+export PNPM_HOME="/Users/derek/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
