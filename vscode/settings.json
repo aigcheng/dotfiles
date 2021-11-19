@@ -1,32 +1,39 @@
 {
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
+  "prettier.trailingComma" : "none",
+  "prettier.arrowParens" : "avoid",
+  "eslint.validate" : [
+    "javascript",
+    "javascriptreact"
+  ],
+  "editor.accessibilitySupport" : "off",
+  "[json]" : {
+    "editor.defaultFormatter" : "esbenp.prettier-vscode"
   },
-  "eslint.validate": ["javascript", "javascriptreact"],
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "[html]" : {
+    "editor.defaultFormatter" : "esbenp.prettier-vscode"
   },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "[css]" : {
+    "editor.defaultFormatter" : "esbenp.prettier-vscode"
   },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.codeActionsOnSave" : {
+    "source.fixAll" : true
   },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "prettier.semi" : false,
+  "editor.formatOnSave" : true,
+  "files.autoSave" : "afterDelay",
+  "editor.inlineSuggest.enabled" : true,
+  "prettier.singleQuote" : true,
+  "[javascript]" : {
+    "editor.defaultFormatter" : "esbenp.prettier-vscode"
   },
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  "[typescriptreact]" : {
+    "editor.defaultFormatter" : "esbenp.prettier-vscode"
   },
-  "prettier.semi": false,
-  "prettier.printWidth": 140,
-  "prettier.trailingComma": "none",
-  "prettier.singleQuote": true,
-  "prettier.arrowParens": "avoid",
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "prettier.printWidth" : 140,
+  "[markdown]" : {
+    "editor.defaultFormatter" : "yzhang.markdown-all-in-one"
   },
-  "editor.inlineSuggest.enabled": true,
-  "files.autoSave": "afterDelay"
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  }
 }

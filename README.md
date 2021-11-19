@@ -11,6 +11,13 @@ $ sh start.sh
 
 $ ln -s dotfiles/vim/.vimrc .vimrc
 ```
+------
+###  Awesome Tools
+
+- [GitHub Copilot][1]
+- [fig][2]
+
+------
 
 ### Q&A
 
@@ -27,3 +34,7 @@ git clone https://github.com/prettier/vim-prettier
 
 cd vim-prettier cd inside prettier root directory and do yarn install or npm install
 ```
+
+
+  [1]: https://copilot.github.com/
+  [2]: https://fig.io/``
