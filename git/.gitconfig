@@ -54,6 +54,7 @@
 
   # Push
   p = push
+  po = push origin
   pom = push origin master
   poh = push origin head
 
