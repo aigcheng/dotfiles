@@ -23,10 +23,6 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 export PATH="$PYENV_ROOT/shims:$PATH"
 
-# Python pip
-export PATH="$HOME/Library/Python/3.6/bin:$PATH"
-export PATH="$HOME/Library/Python/3.7/bin:$PATH"
-
 # Ruby gem
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
@@ -78,12 +74,6 @@ export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-
-
-# Setting PATH for Python 3.10
-# The original version is saved in .zprofile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.10/bin:${PATH}"
-export PATH
 
 #### FIG ENV VARIABLES ####
 # Please make sure this block is at the end of this file.
