@@ -1,46 +1,46 @@
 {
-  "prettier.trailingComma" : "none",
-  "prettier.arrowParens" : "avoid",
   "eslint.validate" : [
     "javascript",
     "javascriptreact"
   ],
-  "editor.accessibilitySupport" : "off",
-  "[json]" : {
-    "editor.defaultFormatter" : "esbenp.prettier-vscode"
-  },
-  "[html]" : {
-    "editor.defaultFormatter" : "esbenp.prettier-vscode"
-  },
+  "prettier.semi" : false,
+  "files.autoSave" : "afterDelay",
+  "editor.formatOnSave" : true,
   "[css]" : {
     "editor.defaultFormatter" : "esbenp.prettier-vscode"
   },
+  "prettier.singleQuote" : true,
+  "prettier.trailingComma" : "none",
+  "terminal.integrated.env.osx" : {
+    "FIG_NEW_SESSION" : "1"
+  },
+  "prettier.arrowParens" : "avoid",
+  "[markdown]" : {
+    "editor.defaultFormatter" : "yzhang.markdown-all-in-one"
+  },
+  "editor.accessibilitySupport" : "off",
+  "github.copilot.enable" : {
+    "markdown" : false,
+    "*" : true,
+    "javascript" : true,
+    "plaintext" : false,
+    "yaml" : false
+  },
+  "[json]" : {
+    "editor.defaultFormatter" : "esbenp.prettier-vscode"
+  },
+  "editor.inlineSuggest.enabled" : true,
+  "prettier.printWidth" : 140,
   "editor.codeActionsOnSave" : {
     "source.fixAll" : true
-  },
-  "prettier.semi" : false,
-  "editor.formatOnSave" : true,
-  "files.autoSave" : "afterDelay",
-  "editor.inlineSuggest.enabled" : true,
-  "prettier.singleQuote" : true,
-  "[javascript]" : {
-    "editor.defaultFormatter" : "esbenp.prettier-vscode"
   },
   "[typescriptreact]" : {
     "editor.defaultFormatter" : "esbenp.prettier-vscode"
   },
-  "prettier.printWidth" : 140,
-  "[markdown]" : {
-    "editor.defaultFormatter" : "yzhang.markdown-all-in-one"
+  "[javascript]" : {
+    "editor.defaultFormatter" : "esbenp.prettier-vscode"
   },
-  "terminal.integrated.env.osx": {
-    "FIG_NEW_SESSION": "1"
-  },
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": false,
-    "markdown": false,
-    "javascript": true
+  "[html]" : {
+    "editor.defaultFormatter" : "esbenp.prettier-vscode"
   }
 }
