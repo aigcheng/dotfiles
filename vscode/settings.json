@@ -12,7 +12,7 @@
   "prettier.singleQuote" : true,
   "prettier.trailingComma" : "none",
   "terminal.integrated.env.osx" : {
-    "FIG_NEW_SESSION" : "1"
+    "FIG_NEW_SESSION": "1"
   },
   "prettier.arrowParens" : "avoid",
   "[markdown]" : {
