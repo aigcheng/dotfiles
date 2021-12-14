@@ -22,18 +22,18 @@
   branch-diff = diff master...HEAD
 
   # Commit
-  c = commit
-  ca = commit -a
-  cm = commit -m
+  gct = git commit
+  gca = git commit -a
+  gcm = git commit -m
   amend = commit --amend
   amend-all = !git add --all && git commit --amend --reuse-message=HEAD
 
   # Clone
-  cl = clone
+  gcl = git clone
   sclone = clone --depth=1
 
   # Checkout
-  co = checkout
+  gc = git checkout
   cb = checkout -b
 
   # Cherry-pick

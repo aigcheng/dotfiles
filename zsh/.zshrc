@@ -113,18 +113,12 @@ HISTFILESIZE=10000
 # highlight dir from file
 alias ls='ls -FHG'
 
-# alias vim to neovim
-if [ -x "$(command -v nvim)" ]; then
-  # nvim will still invoke nvim stable
-  alias nvimnightly='~/nvim-nightly/bin/nvim'  # neovim nightly
-  alias vi='nvimnightly'
-  alias vim='nvimnightly'
-  alias vim8='\vim' # vim 8.1
-fi
 
 # vim
 EDITOR=vim
 GIT_EDITOR=vim
+
+alias python=python3
 
 # git
 alias co='git checkout'
@@ -223,11 +217,6 @@ fi
 alias iterm-dark-mode="i"
 
 
-
-#####################################
-# auto-fu, insta productivity boost 2
-#####################################
-
 # npm/make/brew autocompletions are super slow. Disable them so that auto-fu's
 # completion doesn't trigger for these
 noopt() {}
@@ -235,31 +224,6 @@ compdef noopt npm make brew
 # enable completion for these commands.
 # See https://github.com/zsh-users/zsh-completions/blob/master/zsh-completions-howto.org#completing-generic-gnu-commands
 compdef _gnu_generic bsc bsb ocamlc yarn
-
-# https://github.com/hchbaw/auto-fu.zsh
-# Fork with cleaned-up readme:
-# https://github.com/HerringtonDarkholme/auto-fu.zsh
-
-# make sure history-substring-match is disabled (crashes window with auto-fu).
-# auto-fu master currently unstable. Use the `pu` branch instead
-
-# git clone https://github.com/HerringtonDarkholme/auto-fu.zsh ~/.auto-fu
-# cd ~/.auto-fu
-# git checkout pu
-
-# below is commented out to to turn off auto-fu.
-# the main issue is mis-match and performance
-# using ** for FZF for some cases instead
-
-# if [ -f ~/.auto-fu/auto-fu.zsh ]; then
-#   source ~/.auto-fu/auto-fu.zsh
-#   function zle-line-init () {
-#     auto-fu-init
-#   }
-#   zle -N zle-line-init
-#   zstyle ':completion:*' completer _oldlist _complete
-# fi
-# zstyle ':auto-fu:var' postdisplay $''
 
 export PNPM_HOME="/Users/derek/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"

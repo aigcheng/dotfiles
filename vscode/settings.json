@@ -3,8 +3,7 @@
     "javascript",
     "javascriptreact"
   ],
-  "prettier.semi" : false,
-  "files.autoSave" : "afterDelay",
+  "prettier.semi": false,
   "editor.formatOnSave" : true,
   "[css]" : {
     "editor.defaultFormatter" : "esbenp.prettier-vscode"
@@ -42,5 +41,6 @@
   },
   "[html]" : {
     "editor.defaultFormatter" : "esbenp.prettier-vscode"
-  }
+  },
+  "files.autoSave": "afterDelay"
 }
