@@ -3,6 +3,7 @@ set noswapfile                " disable swap files
 syntax enable                 " enable syntax hightlight and completion
 filetype off                  " required
 
+set backspace=2
 set smarttab
 set smartindent
 

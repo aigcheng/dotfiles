@@ -76,7 +76,7 @@ plugins=(
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
-# source ~/.oh-my-zsh/plugins/incr/incr*.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -122,7 +122,7 @@ alias python=python3
 
 # git
 alias co='git checkout'
-alias cz='git commit -m'
+alias cm='git commit -m'
 alias st='git status'
 alias push='git push origin'
 alias pull='git pull origin'
@@ -141,11 +141,6 @@ alias ws='cd ~/work/workspace/'
 
 # grep (recursive, linenum)
 alias greprn='grep -rn'
-
-# reason
-alias mlre='pbpaste | refmt --parse ml --print re | pbcopy'
-alias reml='pbpaste | refmt --parse re --print ml | pbcopy'
-alias prtop='pbpaste | rtop'
 
 # ocaml / opam switch (upgrade to opam 2.0)
 alias evalopamenv='eval $(opam env)'
@@ -194,24 +189,24 @@ prompt_context () { }
 #####################################
 
 if [[ "$(uname -s)" == "Darwin" ]]; then
-    sith() {
-        val=$(defaults read -g AppleInterfaceStyle 2>/dev/null)
-        if [[ $val == "Dark" ]]; then
-            i
-        fi
-    }
+  sith() {
+    val=$(defaults read -g AppleInterfaceStyle 2>/dev/null)
+    if [[ $val == "Dark" ]]; then
+      i
+    fi
+  }
 
-    i() {
-        if [[ $ITERM_PROFILE == "Default" ]]; then
-            echo -ne "\033]50;SetProfile=Dark\a"
-            export ITERM_PROFILE="Dark"
-        else
-            echo -ne "\033]50;SetProfile=Default\a"
-            export ITERM_PROFILE="Default"
-        fi
-    }
+i() {
+  if [[ $ITERM_PROFILE == "Default" ]]; then
+    echo -ne "\033]50;SetProfile=Dark\a"
+    export ITERM_PROFILE="Dark"
+  else
+    echo -ne "\033]50;SetProfile=Default\a"
+    export ITERM_PROFILE="Default"
+  fi
+}
 
-    sith
+sith
 fi
 
 alias iterm-dark-mode="i"
