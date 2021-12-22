@@ -121,9 +121,18 @@ GIT_EDITOR=vim
 alias python=python3
 
 # git
+alias ad='git add -a'
+alias br='git branch'
 alias co='git checkout'
+alias cma='git commit -am'
 alias cm='git commit -m'
+alias cl='git clone'
+alias df='git diff'
+alias me='git merge'
 alias st='git status'
+alias sw='git switch'
+alias sc='git switch -c'
+alias stash='git stash'
 alias push='git push origin'
 alias pull='git pull origin'
 
