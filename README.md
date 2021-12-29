@@ -37,4 +37,4 @@ cd vim-prettier cd inside prettier root directory and do yarn install or npm ins
 
 
   [1]: https://copilot.github.com/
-  [2]: https://fig.io/``
+  [2]: https://fig.io/
