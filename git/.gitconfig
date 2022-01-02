@@ -2,8 +2,8 @@
 # https://github.com/nicksp/dotfiles/blob/master/git/gitconfig
 
 [user]
-	name = cderek
-	email = pealstyle@gmail.com
+	name = czen
+	email = metaczen@gmail.com
 
 [core]
   editor = vim

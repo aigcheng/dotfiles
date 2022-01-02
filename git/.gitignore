@@ -3,11 +3,7 @@
 .DS_Store
 Thumbs.db
 
-# Jetbrains
-.idea
-
 # Files that might appear on external disks
-.Spotlight-V100
 .Trashes
 
 # Always-ignore extensions
