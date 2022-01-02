@@ -62,6 +62,7 @@ source ${NVM_HOME}/nvm.sh
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  z
   zsh-syntax-highlighting
   zsh-autosuggestions
   zsh-completions
@@ -132,9 +133,13 @@ alias me='git merge'
 alias st='git status'
 alias sw='git switch'
 alias sc='git switch -c'
+alias ce='git clone'
 alias stash='git stash'
-alias push='git push origin'
-alias pull='git pull origin'
+alias ph='git push origin'
+alias pl='git pull origin'
+alias pull='git pull origin "$(git symbolic-ref --short HEAD)"'
+alias push='git push origin "$(git symbolic-ref --short HEAD)"'
+alias tag='git tag'
 
 # vs code
 alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
@@ -147,6 +152,7 @@ alias changelog='conventional-changelog -i CHANGELOG.md -s -r 0'
 
 # 常用工作目录
 alias ws='cd ~/work/workspace/'
+alias hub='cd ~/work/creative/'
 
 # grep (recursive, linenum)
 alias greprn='grep -rn'
@@ -176,9 +182,6 @@ fi
 
 # FZF
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# haskell
-alias stack-all='ls $(stack path --programs)'
 
 # permission
 alias sudolocalbin='sudo chown -R $(whoami) /usr/local/bin /usr/local/lib /usr/local/sbin'

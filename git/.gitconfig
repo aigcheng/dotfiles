@@ -89,3 +89,5 @@
 	helper = store
 [pull]
 	ff = only
+[init]
+	defaultBranch = master

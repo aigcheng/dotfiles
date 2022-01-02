@@ -19,11 +19,11 @@
   },
   "editor.accessibilitySupport" : "off",
   "github.copilot.enable" : {
-    "markdown" : false,
-    "*" : true,
-    "javascript" : true,
-    "plaintext" : false,
-    "yaml" : false
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true,
+    "javascript": true
   },
   "[json]" : {
     "editor.defaultFormatter" : "esbenp.prettier-vscode"
