@@ -141,6 +141,17 @@ alias pull='git pull origin "$(git symbolic-ref --short HEAD)"'
 alias push='git push origin "$(git symbolic-ref --short HEAD)"'
 alias tag='git tag'
 
+gitall() {
+    git add .
+    if [ "$1" != "" ]
+    then
+        git commit -m "$1"
+    else
+        git commit -m update
+    fi
+    git push
+}
+
 # vs code
 alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
 
@@ -153,6 +164,7 @@ alias changelog='conventional-changelog -i CHANGELOG.md -s -r 0'
 # 常用工作目录
 alias ws='cd ~/work/workspace/'
 alias hub='cd ~/work/creative/'
+alias wv='cd ~/work/visual/'
 
 # grep (recursive, linenum)
 alias greprn='grep -rn'
