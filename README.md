@@ -2,6 +2,7 @@
 🎨 Screenshots
 
 --- 
+dark theme(only works on 24-bit true color terminal and true color vim):  
 ![screenshot](./scrshot.png)
 
 ### Quick start
@@ -28,4 +29,4 @@ cd ~/.vim/bundle/YouCompleteMe
 git submodule update --init --recursive
 ```
 
-[前端开发工具流](https://github.com/metaczen/blog/issues/1)
+[My dev workflow](https://github.com/metaczen/blog/issues/1)
