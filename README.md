@@ -2,13 +2,14 @@
 🎨 Screenshots
 
 --- 
-dark theme(only works on 24-bit true color terminal and true color vim):  
+>dark theme(only works on 24-bit true color terminal and true color vim):  
+
 ![screenshot](./scrshot.png)
 
 ### Quick start
 
 ```bash
-$ ln -s <source_file> <target_file>
+$ ln -s <source_file> <target_file>s
 
 # use start.sh (under repo's dir)
 
