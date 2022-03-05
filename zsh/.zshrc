@@ -152,7 +152,6 @@ gitall() {
     fi
     git push
 }
-
 # vs code
 alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
 
@@ -187,6 +186,9 @@ alias clocv='cloc --by-file-by-lang --match-f=v --exclude-dir="Lib" .'
 
 # langfc
 alias fc='./bin/langfc -Ckeep-convert-to-reploc=true -Ckeep-vm-codegen=true'
+
+# Tmux
+alias tnew='tmux -f ~/.tmux.conf new-session \; split-window -h \; split-window -v \; attach'
 
 # only eval opam on `source .zshrc` if opam is an executable
 if [ -x "$(command -v opam)" ]; then
@@ -253,6 +255,15 @@ export PATH="$PNPM_HOME:$PATH"
 [ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
 #### END FIG ENV VARIABLES ####
 
+
+# myIP address
+function myip() {
+    ifconfig lo0 | grep 'inet ' | sed -e 's/:/ /' | awk '{print "lo0       : " $2}'
+    ifconfig en0 | grep 'inet ' | sed -e 's/:/ /' | awk '{print "en0 (IPv4): " $2 " " $3 " " $4 " " $5 " " $6}'
+    ifconfig en0 | grep 'inet6 ' | sed -e 's/ / /' | awk '{print "en0 (IPv6): " $2 " " $3 " " $4 " " $5 " " $6}'
+    ifconfig en1 | grep 'inet ' | sed -e 's/:/ /' | awk '{print "en1 (IPv4): " $2 " " $3 " " $4 " " $5 " " $6}'
+    ifconfig en1 | grep 'inet6 ' | sed -e 's/ / /' | awk '{print "en1 (IPv6): " $2 " " $3 " " $4 " " $5 " " $6}'
+}
 
 
 export PATH="$HOME/flutter/bin:$PATH"

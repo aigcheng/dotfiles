@@ -1,3 +1,9 @@
+
+🎨 Screenshots
+
+--- 
+![screenshot](./scrshot.png)
+
 ### Quick start
 
 ```bash

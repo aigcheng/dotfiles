@@ -32,6 +32,10 @@ ln -sf "$cwd/git/.gitconfig" ~/.gitconfig
 ln -sf "$cwd/git/.gitignore" ~/.gitignore
 ln -sf "$cwd/git/.gitattributes" ~/.gitattributes
 
+#tmux
+# ln -sf "$cmd/tmux/.tmux.conf" ~/.tmux.conf
+# ln -sf "$cmd/tmux/.tmux.conf.local" ~/.tmux.conf.local
 
- git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
- git clone git://github.com/zsh-users/zsh-completions.git ~/.oh-my-zsh/custom/plugins/zsh-completions
+
+ #git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+ #git clone git://github.com/zsh-users/zsh-completions.git ~/.oh-my-zsh/custom/plugins/zsh-completions
