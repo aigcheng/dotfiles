@@ -5,3 +5,4 @@ fi
 
 # make cd case-INsensitive
 set completion-ignore-case
+. "$HOME/.cargo/env"

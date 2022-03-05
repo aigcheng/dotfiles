@@ -40,7 +40,6 @@ export PATH="$HOME/flutter/bin:$PATH"
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
 
 # Rust cargo
-export PATH="$HOME/.cargo/bin:$PATH"
 
 # openSSL
 export PATH="/usr/local/opt/openssl/bin:$PATH"

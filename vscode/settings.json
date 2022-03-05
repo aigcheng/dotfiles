@@ -29,7 +29,7 @@
   "github.copilot.enable" : {
     "*": true,
     "yaml": true,
-    "plaintext": false,
+    "plaintext": true,
     "markdown": true,
     "javascript": true
   },
@@ -42,5 +42,6 @@
   },
   "[html]" : {
     "editor.defaultFormatter" : "esbenp.prettier-vscode"
-  }
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
