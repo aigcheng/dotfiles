@@ -63,7 +63,7 @@ tmux_conf_theme_colour_14="#080808"   # dark gray
 tmux_conf_theme_colour_15="#080808"   # dark gray
 tmux_conf_theme_colour_16="#fc5e5b"   # red
 tmux_conf_theme_colour_17="#f1f1f0"   # white
-tmux_conf_theme_colour_18="##4bdddd"  # blue
+tmux_conf_theme_colour_18="#4bdddd"   # blue
 
 # default theme (ansi)
 #tmux_conf_theme_colour_1="colour0"
@@ -103,8 +103,8 @@ tmux_conf_theme_focused_pane_bg="$tmux_conf_theme_colour_2"
 tmux_conf_theme_pane_border_style=thin
 
 # pane borders colours:
-tmux_conf_theme_pane_border="$tmux_conf_theme_colour_2"
-tmux_conf_theme_pane_active_border="$tmux_conf_theme_colour_4"
+tmux_conf_theme_pane_border="$tmux_conf_theme_colour_4"
+tmux_conf_theme_pane_active_border="$tmux_conf_theme_colour_11"
 
 # pane indicator colours (when you hit <prefix> + q)
 tmux_conf_theme_pane_indicator="$tmux_conf_theme_colour_4"
