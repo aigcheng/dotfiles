@@ -2,8 +2,8 @@
 # https://github.com/nicksp/dotfiles/blob/master/git/gitconfig
 
 [user]
-	name = czen
-	email = pealstyle@gmail.com
+	name = 程大鹏
+	email = chengdapeng@huazhu.com
 
 [core]
   editor = vim

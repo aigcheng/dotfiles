@@ -59,11 +59,11 @@ tmux_conf_theme_colour_10="#fd6dc0"   # pink
 tmux_conf_theme_colour_11="#62f592"   # green
 tmux_conf_theme_colour_12="#8a8a8a"   # light gray
 tmux_conf_theme_colour_13="#f1f1f0"   # white
-tmux_conf_theme_colour_14="#080808"   # dark gray
+tmux_conf_theme_colour_14="#fcaee5"   # dark gray
 tmux_conf_theme_colour_15="#080808"   # dark gray
 tmux_conf_theme_colour_16="#fc5e5b"   # red
 tmux_conf_theme_colour_17="#f1f1f0"   # white
-tmux_conf_theme_colour_18="#4bdddd"   # blue
+tmux_conf_theme_colour_18="#f4066e"   # blue
 
 # default theme (ansi)
 #tmux_conf_theme_colour_1="colour0"
