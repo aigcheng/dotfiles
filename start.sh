@@ -29,6 +29,8 @@ ln -sf "$cwd/vscode/settings.json" ~/Library/Application\ Support/Code/User/sett
 
 # git
 ln -sf "$cwd/git/.gitconfig" ~/.gitconfig
+ln -sf "$cwd/git/.gitconfig-self" ~/.gitconfig-self
+ln -sf "$cwd/git/.gitconfig-work" ~/.gitconfig-work
 ln -sf "$cwd/git/.gitignore" ~/.gitignore
 ln -sf "$cwd/git/.gitattributes" ~/.gitattributes
 

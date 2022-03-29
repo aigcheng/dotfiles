@@ -1,10 +1,6 @@
 # shameless modified from
 # https://github.com/nicksp/dotfiles/blob/master/git/gitconfig
 
-[user]
-	name = czen
-	email = pealstyle@gmail.com
-
 [core]
   editor = vim
   autocrlf = input
@@ -91,7 +87,7 @@
 	ff = only
 [init]
 	defaultBranch = master
-[includeIf "gitdir:~/work/self-workspace/"]
+[includeIf "gitdir:~/work/personal/"]
     path = .gitconfig-self
 [includeIf "gitdir:~/work/workspace/"]
     path = .gitconfig-work
