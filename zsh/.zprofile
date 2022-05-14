@@ -34,7 +34,7 @@ export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="$HOME/.jsvu:$PATH"
 
 # Flutter
-export PATH="$HOME/flutter/bin:$PATH"
+export PATH="$HOME/development/flutter/bin:$PATH"
 
 # Sqlite
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
