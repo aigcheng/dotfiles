@@ -9,7 +9,6 @@ ln -sf "$cwd/bash/.bashrc" ~/.bashrc
 ln -sf "$cwd/zsh/.zshrc" ~/.zshrc
 ln -sf "$cwd/zsh/.zshenv" ~/.zshenv
 ln -sf "$cwd/zsh/.zprofile" ~/.zprofile
-ln -sf "$cwd/zsh/oh-my-zsh/themes/agnoster.zsh-theme" ~/.oh-my-zsh/themes/agnoster.zsh-theme
 
 # vim
 ln -sf "$cwd/vim/.vimrc" ~/.vimrc
@@ -18,10 +17,6 @@ ln -sf "$cwd/vim/.vimrc" ~/.ideavimrc
 # neovim and coc
 if [ -d "~/.config/nvim" ]; then
   ln -sf "$cwd/nvim/init.vim" ~/.config/nvim/init.vim
-  ln -sf "$cwd/nvim/coc-settings.json" ~/.config/nvim/coc-settings.json
-else
-  # fallback to vim
-  ln -sf "$cwd/nvim/coc-settings.json" ~/.vim/coc-settings.json
 fi
 
 # vscode
