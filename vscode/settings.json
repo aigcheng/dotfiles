@@ -1,47 +1,46 @@
 {
-  "prettier.semi" : false,
-  "editor.accessibilitySupport" : "off",
-  "prettier.singleQuote" : true,
-  "[typescriptreact]" : {
-    "editor.defaultFormatter" : "esbenp.prettier-vscode"
-  },
-  "editor.inlineSuggest.enabled" : true,
-  "[css]" : {
-    "editor.defaultFormatter" : "esbenp.prettier-vscode"
-  },
-  "editor.formatOnSave" : true,
-  "editor.codeActionsOnSave" : {
-    "source.fixAll" : true
-  },
-  "prettier.printWidth" : 140,
-  "terminal.integrated.env.osx" : {
-    "FIG_NEW_SESSION": "1"
-  },
-  "prettier.trailingComma" : "none",
-  "[javascript]" : {
-    "editor.defaultFormatter" : "esbenp.prettier-vscode"
-  },
-  "files.autoSave" : "afterDelay",
-  "prettier.arrowParens" : "avoid",
-  "[markdown]" : {
-    "editor.defaultFormatter" : "yzhang.markdown-all-in-one"
-  },
-  "github.copilot.enable" : {
-    "*": true,
-    "yaml": true,
-    "plaintext": true,
-    "markdown": true,
-    "javascript": true
-  },
   "eslint.validate" : [
     "javascript",
     "javascriptreact"
   ],
+  "prettier.semi": false,
+  "editor.formatOnSave" : true,
+  "[css]" : {
+    "editor.defaultFormatter" : "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote" : true,
+  "prettier.trailingComma" : "none",
+  "terminal.integrated.env.osx" : {
+    "FIG_NEW_SESSION": "1"
+  },
+  "prettier.arrowParens" : "avoid",
+  "[markdown]" : {
+    "editor.defaultFormatter" : "yzhang.markdown-all-in-one"
+  },
+  "editor.accessibilitySupport" : "off",
+  "github.copilot.enable" : {
+    "markdown" : false,
+    "*" : true,
+    "javascript" : true,
+    "plaintext" : false,
+    "yaml" : false
+  },
   "[json]" : {
+    "editor.defaultFormatter" : "esbenp.prettier-vscode"
+  },
+  "editor.inlineSuggest.enabled" : true,
+  "prettier.printWidth" : 140,
+  "editor.codeActionsOnSave" : {
+    "source.fixAll" : true
+  },
+  "[typescriptreact]" : {
+    "editor.defaultFormatter" : "esbenp.prettier-vscode"
+  },
+  "[javascript]" : {
     "editor.defaultFormatter" : "esbenp.prettier-vscode"
   },
   "[html]" : {
     "editor.defaultFormatter" : "esbenp.prettier-vscode"
   },
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "files.autoSave": "afterDelay"
 }
