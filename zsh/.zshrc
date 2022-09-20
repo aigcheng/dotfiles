@@ -66,7 +66,6 @@ plugins=(
   z
   zsh-syntax-highlighting
   zsh-autosuggestions
-  zsh-completions
   tmux
   wakatime
 )
