@@ -87,7 +87,7 @@
 	ff = only
 [init]
 	defaultBranch = master
-[includeIf "gitdir:~/work/personal/"]
+[includeIf "gitdir:~/personal/"]
     path = .gitconfig-self
 [includeIf "gitdir:~/work/workspace/"]
     path = .gitconfig-work
