@@ -1,7 +1,3 @@
-# Fig pre block. Keep at the top of this file.
-export PATH="${PATH}:${HOME}/.local/bin"
-eval "$(fig init zsh pre)"
-
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -253,6 +249,13 @@ export PNPM_HOME="/Users/derek/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 
 
+# 如果你不是通过Android Studio安装的sdk，则其路径可能不同，请自行确定清楚
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
 
 
 # myIP address
@@ -268,8 +271,5 @@ function myip() {
 export PATH="$HOME/development/flutter/bin:$PATH"
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
-
-# Fig post block. Keep at the bottom of this file.
-eval "$(fig init zsh post)"
 
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

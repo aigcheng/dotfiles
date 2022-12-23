@@ -1,7 +1,3 @@
-# Fig pre block. Keep at the top of this file.
-export PATH="${PATH}:${HOME}/.local/bin"
-eval "$(fig init zsh pre)"
-
 # sourced on the start of a login shell.
 
 # 10ms for key sequences
@@ -71,9 +67,6 @@ export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 # https://discourse.brew.sh/t/failed-to-set-locale-category-lc-numeric-to-en-ru/5092/19
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-
-# Fig post block. Keep at the bottom of this file.
-eval "$(fig init zsh post)"
 
 
 # Setting PATH for Python 3.10

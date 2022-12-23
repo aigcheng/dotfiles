@@ -1,7 +1,3 @@
-# Fig pre block. Keep at the top of this file.
-export PATH="${PATH}:${HOME}/.local/bin"
-eval "$(fig init bash pre)"
-
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -122,7 +118,3 @@ fi
 
 
 . "$HOME/.cargo/env"
-
-# Fig post block. Keep at the bottom of this file.
-eval "$(fig init bash post)"
-
