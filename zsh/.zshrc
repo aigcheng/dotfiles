@@ -271,5 +271,6 @@ function myip() {
 export PATH="$HOME/development/flutter/bin:$PATH"
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
+export PATH=${PATH}:/usr/local/MongoDB/bin
 
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
