@@ -91,3 +91,5 @@
     path = .gitconfig-self
 [includeIf "gitdir:~/work/workspace/"]
     path = .gitconfig-work
+[http]
+	sslBackend = openssl
