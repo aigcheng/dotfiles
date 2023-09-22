@@ -76,7 +76,6 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 source ~/dotfiles/zsh/oh-my-zsh/iterm2.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
