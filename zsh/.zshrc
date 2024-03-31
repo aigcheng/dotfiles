@@ -289,6 +289,8 @@ export HDC_SERVER_PORT=7035
 export HARMONY_HOME=/Users/apple/Library/Huawei
 export PATH=$PATH:$HARMONY_HOME/Sdk/openharmony/10/toolchains
 #export PATH=$PATH:$HARMONY_HOME/ohpm/bin
+#
+export PATH=/opt/homebrew/bin:$PATH
 
 #ohpm
 export OHPM_HOME=/Users/apple/ohpm/ohpm-1.2.5
