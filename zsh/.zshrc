@@ -62,7 +62,7 @@ plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
   tmux
-  wakatime
+  zsh-wakatime
 )
 
 # git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -281,6 +281,8 @@ case ":$PATH:" in
 esac
 # pnpm end
 #
+#Hide user path
+DEFAULT_USER=$USER
 
 export HDC_SERVER_PORT=7035
 
